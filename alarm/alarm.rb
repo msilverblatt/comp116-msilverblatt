@@ -114,7 +114,11 @@ end
 
 
 def checkNmap(pkt)
-
+	if pkt.is_tcp?
+		if (pkt.tcp_header.body.scan(/(n|N)(m|M)(a|A)(p|P)/))
+			reportIncident("NMAP SCAN", pkt.ip_saddr, "TCP")
+		end
+	end
 end
 
 
