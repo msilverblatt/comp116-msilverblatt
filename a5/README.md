@@ -99,7 +99,7 @@ Forensics: `sdcard.dd`
 6. No. The shadow file shows only one password, the root's. 
    passwd shows a home directory with the path `/home/saned`, but that is actually a daemon.
 7. The passwd file showed us root's home directory was `/root`. In there, we
-   found deleted `Pictures` and `Documents` directories. `Picutres` had 
+   found deleted `Pictures` and `Documents` directories. `Pictures` had 
    10 jpegs all of the celebrity, according to Google Images. They seem to
    be from different periods of her life. 
 
