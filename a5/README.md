@@ -139,8 +139,8 @@ Forensics: `sdcard.dd`
 
    Using a virtual machine running Kali Linux, we ran `truecrack -w dictionary/openwall_3546.txt -v -t Dropbox.zip`
 
-   > Found password:			"iloveyou"
-   > Password length:			"9"
+   > Found password:			"iloveyou"<br>
+   > Password length:			"9"<br>
    > Total Computations:		"84"
 
    Within a few seconds, it detected 'iloveyou' as a valid password. Using TrueCrypt, 
