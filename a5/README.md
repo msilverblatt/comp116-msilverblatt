@@ -137,9 +137,11 @@ Forensics: `sdcard.dd`
    is a copy of `dropbox.zip`. However, `file` states this is only data. The
    `.TrueCrypt` directory tells us if this is encrypted data, TrueCrypt was used.
 
-   Using a virtual machine running Kali Linux, we ran 
+   Using a virtual machine running Kali Linux, we ran `truecrack -w dictionary/openwall_3546.txt -v -t Dropbox.zip`
 
-   > truecrack -w dictionary/openwall_3546.txt -v -t Dropbox.zip
+   > Found password:			"iloveyou"
+   > Password length:			"9"
+   > Total Computations:		"84"
 
    Within a few seconds, it detected 'iloveyou' as a valid password. Using TrueCrypt, 
    we were able to mount the Dropbox.zip file with that password. There were two encrypted
@@ -148,7 +150,7 @@ Forensics: `sdcard.dd`
    
    As an aside, the `.TrueCrypt` directory had another file named `.show-request-queue`.
    This was another image of our celebrity.
-   
+
 10. The suspect may have seen the celebrity. The suspected location is
     The Colosseum at Caesars Place in Las Vegas on July 28, 2012. 
 
