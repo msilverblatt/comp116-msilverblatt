@@ -1,0 +1,10 @@
+iosscan
+By Michael Silverblatt
+Developed for Comp 116, Tufts University Fall '13
+Professor Ming Chow
+
+This is an implementation of a scanner for iOS traffic. It summarizes the traffic it has scanned and displays it on the terminal.
+The various options it can be run with can be see by running './iosscan -h'.
+I chose this as my project because it allowed to make a legitimately useful tool for network analysis, and it was an opportunity for me to work in python for the first time. There is definitely a ton of functionality I would have liked to build in, such as more interactivity and better filters for determining types of traffic that are being sent. Overall, I am happy with the finished product and can confidently say I have an in depth knowledge of the security concerns and procedures in iOS applications.
+
+Requires mitmdump to run. Developed and tested on python v. 2.7, not guaranteed to work on any other versions.
